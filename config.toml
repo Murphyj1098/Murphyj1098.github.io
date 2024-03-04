@@ -55,8 +55,13 @@ languageCode = "en-us"
     name = "Posts"
     url = "posts/"
     weight = 10
+  
+  [[menu.main]]
+    name = "Daily Logs"
+    url = "daily/"
+    weight = 20
 
   [[menu.main]]
     name = "About"
     url = "about/"
-    weight = 20
+    weight = 30
