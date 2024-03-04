@@ -1,0 +1,62 @@
+baseURL = 'https://jrmurphy.me/'
+title = 'Joseph Murphy'
+theme = 'hermit-v2'
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+languageCode = "en-us"
+
+[params.author]
+  name = "Joseph Murphy"
+  about = "about"
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+  description = 'Writing about anything and everything'
+  # images = ''
+  # themeColor = ''
+  homeSubtitle = 'Writing about anything and everything'
+  footerCopyright = ' <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  # bgImg = ''
+  # gitUrl = ''
+  # justifyContent = ''
+  # relatedPosts = ''
+  code_copy_button = true 
+  homeSubtitlePrinter = true
+  scrollToTop = true
+  # global_mathjax = ''  
+  readTime = true
+  readTimeSeparator = "\u2026 \u23F2 Reading Time:"
+  # legacyLayout = ''
+  # shareSocial = ''
+  # googleTagManager = ''
+  # tagSymbol = ''
+  # categorySymbol = ''
+  # pinned = ''
+  # pinnedSVGName = ''
+  # descriptionInPosts = ''
+  # initialPublish = ''
+
+
+  [[params.socialLinks]]
+    name = "github"
+    url = "https://github.com/Murphyj1098"
+
+
+[menu]
+
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 20
