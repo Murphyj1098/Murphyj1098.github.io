@@ -1,7 +1,7 @@
 ---
 title: "Hello World"
 date: 2024-03-04T10:00:00-05:00
-draft: true
+draft: false
 toc: false
 tags: 
   - admin
