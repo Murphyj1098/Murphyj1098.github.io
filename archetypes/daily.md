@@ -1,5 +1,5 @@
 ---
-title: " Daily Log: {{ .Name }}"
+title: "Daily Log: {{ .Name }}"
 date: {{ .Date }}
 draft: true
 tags: 
